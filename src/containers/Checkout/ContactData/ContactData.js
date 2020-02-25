@@ -21,7 +21,7 @@ class ContactData extends Component{
                     <input type="email" name="email" placeholder="Your Mail" />
                     <input type="text" name="street" placeholder="Street" />
                     <input type="text" name="postal" placeholder="Postal Code" />
-                    <Button >ORDER</Button>
+                    <Button btnType="Success">ORDER</Button>
                 </form>
             </div>
         );
