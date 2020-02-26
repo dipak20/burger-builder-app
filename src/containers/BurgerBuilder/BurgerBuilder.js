@@ -14,7 +14,7 @@ const INGREDIENT_PRICES = {
     cheese: 0.4,
     meat: 1.3,
     bacon: 0.7
-}
+};
 
 class BurgerBuilder extends Component{
 
@@ -28,7 +28,8 @@ class BurgerBuilder extends Component{
         totalPrice: 4,
         purchasable: false,
         purchasing: false,
-        loading: false
+        loading: false,
+        error: false
     }
 
     componentDidMount(){
@@ -142,7 +143,7 @@ class BurgerBuilder extends Component{
         };
 
         for(let key in disabledInfo){
-            disabledInfo[key] = disabledInfo[key] <= 0;
+            disabledInfo[key] = disabledInfo[key] <= 0
         }
         
         let orderSummary = null;
