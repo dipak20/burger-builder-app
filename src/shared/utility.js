@@ -36,5 +36,3 @@ export const checkValidity = (value,rules) => {
 
     return isValid;
 }
-
-export default updateObject;

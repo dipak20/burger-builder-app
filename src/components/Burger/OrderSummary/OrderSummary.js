@@ -4,12 +4,6 @@ import Auxiliary from '../../../hoc/Auxiliary/Auxiliary';
 import Button from '../../UI/Button/Button';
 
 class OrderSummary extends Component{
- 
-    // This could be the Functional component, doesn't have to be a Class-based Component.
-
-    componentWillUpdate(){
-        console.log('[OrderSummary] WillUpdate');        
-    }
 
     render(){
 
